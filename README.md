@@ -2,8 +2,8 @@
 Myo armband electromyographic readings dataset for flexion, extension, pronation, supination, radial deviation, ulnar deviation, fist and hibernation gestures. The samping frequency is 200 Hz, as per Myo specs.
 
 ## Project structure ##
-The readings are located in the _readings folder which contains one folder for each recording session.
-Each session contains multiple files, which are named &lt;label&gt;.txt (e. g. 3.txt for supination, see Gesture labels below).
+The readings are located in the _readings folder which contains one folder per recording session.
+Each session contains multiple files, which are named &lt;label&gt;.txt (e. g. 3.txt for supination, see Gesture labels below; each recording session folder should contain at least eight files - for the eight different gestures).
 The file itself it composed of multiple lines:
 
     11,32,-3,-43,4,5,42,7,7
