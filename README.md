@@ -1,3 +1,5 @@
+![myo](https://i.imgur.com/krtGcv6.png "myo") 
+
 # myo-readings-dataset #
 Myo armband electromyographic readings dataset for flexion, extension, pronation, supination, radial deviation, ulnar deviation, fist and hibernation gestures. The samping frequency is 200 Hz, as per Myo specs.
 
