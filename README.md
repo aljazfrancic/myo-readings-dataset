@@ -18,12 +18,21 @@ Each line represents the samples from the eight EMG channels on the Myo armband 
 
 ## Gesture labels ##
 * 0: flexion
+	* <img height="100" src="https://i.imgur.com/w56CXjb.jpg">
 * 1: extension
+	* <img height="100" src="https://i.imgur.com/vWoPmeW.jpg">
 * 2: pronation
+	* <img height="100" src="https://i.imgur.com/BAmN4af.jpg">
 * 3: supination
+	* <img height="100" src="https://i.imgur.com/p1G5uSI.jpg">
 * 4: radial deviation
+	* <img height="100" src="https://i.imgur.com/K5r091U.jpg">
 * 5: ulnar deviation
+	* <img height="100" src="https://i.imgur.com/cthd22A.jpg">
 * 6: fist
+	* <img height="100" src="https://i.imgur.com/zOTmjSb.jpg">
 * 7: hibernation
+	* <img height="100" src="https://i.imgur.com/LEv7vFR.jpg">
+	* <img height="100" src="https://i.imgur.com/pCvJGau.jpg">
 * <new_gesture_label>: <gesture_class_name>
 
