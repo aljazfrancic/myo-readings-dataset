@@ -3,7 +3,7 @@ Myo armband electromyographic readings dataset for flexion, extension, pronation
 
 ## Project structure ##
 The readings are located in the _readings folder which contains one folder for each recording session.
-Each session contains multiple files, which are named <label>.txt (e. g. 3.txt for supination, see Gesture labels below).
+Each session contains multiple files, which are named &lt;label&gt;.txt (e. g. 3.txt for supination, see Gesture labels below).
 The file itself it composed of multiple lines:
 
     11,32,-3,-43,4,5,42,7,7
