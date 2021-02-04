@@ -10,7 +10,7 @@ The file itself it composed of multiple lines:
     13,24,-5,12,43,42,12,1,7
     123,121,-100,-88,-32,32,123,13,3
 	
-Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the gesture (class), separated by commas (there is no comma at the end of the line). The pauses between the individual executions of gestures are labelled as hibernation. In this example the first two lines represent hibernation (e. g. 7), while the third line represents supination (e. g. 3).
+Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the gesture (class), separated by commas (there is no comma at the end of the line) in a given time moment. The pauses between the individual executions of gestures are labelled as hibernation. In this example the first two lines represent hibernation (e. g. 7), while the third line represents supination (e. g. 3; the EMG values are arbitrary in the example).
 
 ## Gesture labels ##
 * 0: flexion
