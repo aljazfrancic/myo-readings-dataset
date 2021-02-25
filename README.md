@@ -7,7 +7,7 @@ Myo armband electromyographic readings dataset for hibernation, flexion, extensi
 
 ## Project structure ##
 The readings are located in the _readings folder which contains one folder per recording session.
-Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 1.txt for flexion, see Gesture labels below; each recording session folder should contain at least eight files).
+Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 1.txt for flexion, see Gesture labels below). Each recording session folder should contain at least eight files.
 The file itself it composed of multiple lines:
 
     ...
