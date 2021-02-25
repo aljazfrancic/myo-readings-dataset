@@ -20,7 +20,7 @@ Each line represents the samples from the eight EMG channels on the Myo armband 
 
 ## Recording protocol ##
 The Myo armband is placed on the thickest part of the forearm, with the LED pointing towards the dorsal (back) part of the hand.
-Each file contains one minute of recordings. The labels at the ends of the lines alternate between hiberation (0) and the gesture denoted in the file name every five seconds. The exception is the hibernation gesture, where the file contains only hibernation labels (0) at the end of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
+Each file contains one minute of recordings. The labels at the ends of the lines alternate between hiberation (0) and the gesture denoted in the file name every five seconds. The exception is the hibernation gesture, where the file contains only hibernation labels (0) at the ends of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
 
 ## Gesture labels ##
 * 0: hibernation
