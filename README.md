@@ -19,7 +19,7 @@ The file itself it composed of multiple lines:
 Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the wrist gesture (class), separated by commas (there is no comma at the end of the line) in a given time moment. In this example the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents flexion (e. g. 1). The EMG values are arbitrary in the example.
 
 ## Recording protocol ##
-The Myo armband is placed on the thickest part of the forearm, with LED pointing towards the dorsal (back) part of the hand.
+The Myo armband is placed on the thickest part of the forearm, with the LED pointing towards the dorsal (back) part of the hand.
 Each file contains one minute of recordings. The labels at the end of the lines alternate between hiberation (0) and the gesture denoted in the file name every five seconds. The exception is the hibernation gesture, where the file contains only hibernation labels (0) at the end of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
 
 ## Gesture labels ##
