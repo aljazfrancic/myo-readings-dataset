@@ -3,7 +3,7 @@
 </p>
 
 # myo-readings-dataset #
-Myo armband electromyographic readings dataset for hibernation, flexion, extension, pronation, radial deviation, ulnar deviation, supination and fist gestures of the wrist. The sampling frequency is 200 Hz, as per Myo specs.
+Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist. The sampling frequency is 200 Hz, as per Myo specs.
 
 ## Project structure ##
 The readings are located in the _readings folder which contains one folder per recording session.
