@@ -3,11 +3,11 @@
 </p>
 
 # myo-readings-dataset #
-Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist. The sampling frequency is 200 Hz, as per Myo specs.
+Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
 
 ## Project structure ##
 The readings are located in the _readings folder which contains one folder per recording session.
-Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 1.txt for flexion, see Gesture labels below). Each recording session folder should contain at least eight files.
+Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 1.txt for flexion, see Gesture labels below). Each recording session folder should contain at least eight files (for gesture 0-7).
 The file itself it composed of multiple lines:
 
     ...
@@ -16,7 +16,7 @@ The file itself it composed of multiple lines:
     123,121,-100,-88,-32,32,123,13,1
 	...
 	
-Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the wrist gesture (class), separated by commas (there is no comma at the end of the line) in a given time moment. In this example the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents flexion (e. g. 1). The EMG values are arbitrary in the example.
+Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the wrist gesture (class), separated by commas (there is no comma at the end of the line and there should be no spaces anywhere in the file) in a given time moment. The sampling frequency is 200 Hz, as per Myo specs. In this example the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents flexion (e. g. 1). The EMG values are arbitrary in the example. There should not be an empty line at the end of the file.
 
 ## Recording protocol ##
 The Myo armband is placed on the thickest part of the right forearm, with the LED pointing towards the dorsal (back) part of the hand.
