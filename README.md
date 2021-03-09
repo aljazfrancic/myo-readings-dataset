@@ -40,5 +40,9 @@ Each file contains one minute of recordings. The labels at the ends of the lines
 	* <img height="100" src="https://i.imgur.com/p1G5uSI.jpg">
 * 7: fist
 	* <img height="100" src="https://i.imgur.com/zOTmjSb.jpg">
-* <new_gesture_label>: <gesture_class_name>
 
+## Optional gesture labels ##
+* 8: sing of the horns
+	* <img height="100" src="https://i.imgur.com/IhPe0pz.png">
+* <new_gesture_label>: <gesture_class_name>
+	* <new_gesture_image>
