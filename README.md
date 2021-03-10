@@ -24,22 +24,22 @@ Each file contains one minute of recordings and should be around 12 000 lines lo
 
 ## Gesture labels ##
 * 0: hibernation
-	* <img height="100" src="https://i.imgur.com/LEv7vFR.jpg">
-	* <img height="100" src="https://i.imgur.com/pCvJGau.jpg">
+	* <img height="100" src="https://i.imgur.com/wIaBTrp.png">
+	* <img height="100" src="https://i.imgur.com/EHSFyVX.png">
 * 1: flexion
-	* <img height="100" src="https://i.imgur.com/w56CXjb.jpg">
+	* <img height="100" src="https://i.imgur.com/sp4wWX3.png">
 * 2: extension
-	* <img height="100" src="https://i.imgur.com/vWoPmeW.jpg">
+	* <img height="100" src="https://i.imgur.com/WtojDBg.png">
 * 3: radial deviation
-	* <img height="100" src="https://i.imgur.com/K5r091U.jpg">
+	* <img height="100" src="https://i.imgur.com/lsqb881.png">
 * 4: ulnar deviation
-	* <img height="100" src="https://i.imgur.com/cthd22A.jpg">
+	* <img height="100" src="https://i.imgur.com/ypGlBKi.png">
 * 5: pronation
-	* <img height="100" src="https://i.imgur.com/BAmN4af.jpg">
+	* <img height="100" src="https://i.imgur.com/TQmps6o.png">
 * 6: supination
-	* <img height="100" src="https://i.imgur.com/p1G5uSI.jpg">
+	* <img height="100" src="https://i.imgur.com/oIPhfVB.png">
 * 7: fist
-	* <img height="100" src="https://i.imgur.com/zOTmjSb.jpg">
+	* <img height="100" src="https://i.imgur.com/1DTqj5Y.png">
 
 ## Optional gesture labels ##
 * 8: sign of the horns
