@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/krtGcv6.png">
+<img src="https://i.imgur.com/aY3xbJX.png">
+<img src="https://i.imgur.com/1V09QQU.png">
 </p>
 
 # myo-readings-dataset #
