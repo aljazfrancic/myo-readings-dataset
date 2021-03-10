@@ -44,5 +44,5 @@ Each file contains one minute of recordings and should be around 12 000 lines lo
 ## Optional gesture labels ##
 * 8: sign of the horns
 	* <img height="100" src="https://i.imgur.com/IhPe0pz.png">
-* <new_gesture_label>: <gesture_class_name>
+* <new_gesture_label>: <new_gesture_class_name>
 	* <new_gesture_image>
