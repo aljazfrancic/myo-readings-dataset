@@ -50,6 +50,6 @@ Each file contains one minute of recordings and should be around 12 000 lines lo
 
 ## Curated sessions ##
 The curated.txt file contains a list of sessions that yield a decent intraparticipant accuracy accross most gestures when applying machine learning strategies to evaluate the dataset.
-Good intraparticipant accuracy indicates proper electrode placement and device orientation during individual recordings of a single participant.
+Good intraparticipant accuracy indicates proper electrode placement and device orientation during individual recording sessions of a single participant.
 The curated sessions hence also yield a good interparticipant accuracy.
 If you intend to use the dataset for applying machine learninig strategies, it is recommended to use only the curated sessions.
