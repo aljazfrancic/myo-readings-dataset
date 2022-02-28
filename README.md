@@ -17,11 +17,11 @@ The file itself it composed of multiple lines:
     123,121,-100,-88,-32,32,123,13,2
 	...
 	
-Each line represents the samples from the eight EMG channels on the Myo armband ([-128, 127], signed byte) as well as the label for the wrist gesture (class) in a given time moment, separated by commas. There is no comma at the end of the line and there should be no spaces anywhere in the file. The sampling frequency is approximately 200 Hz, as per Myo specifications. In this example, the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents extension (e. g. 2). The EMG values are arbitrary in the example. There should not be an empty line at the end of the file.
+Each line represents the samples from the eight EMG channels on the Myo armband (**[-128, 127]**, signed byte) as well as the label for the wrist gesture (class) in a given time moment, separated by commas. **There is no comma at the end of the line and there should be no spaces anywhere in the file.** The sampling frequency is approximately 200 Hz, as per Myo specifications. In this example, the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents extension (e. g. 2). The EMG values are arbitrary in the example. **There should not be an empty line at the end of the file.**
 
 ## Recording protocol ##
-The Myo armband is placed on the thickest part of the right forearm, with the LED pointing towards the dorsal (back) part of the hand.
-Each file contains one minute of recordings and should be around 12 000 lines long (~200 Hz &times; 60 s = 12 000). The labels at the ends of the lines alternate between hibernation (0) and the gesture denoted in the file name every five seconds. The exception is the hibernation gesture, where the file contains only hibernation labels (0) at the ends of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
+The Myo armband is placed on the thickest part of the right forearm, with the **LED pointing towards the dorsal (back) part of the hand**.
+Each file contains one minute of recordings and should be around **12 000 lines long** (~200 Hz &times; 60 s = 12 000). **The labels at the ends of the lines alternate between hibernation (0) and the gesture denoted in the file name every five seconds.** The exception is the hibernation gesture, where the file contains only hibernation labels (0) at the ends of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
 
 ## Gesture labels ##
 * 0: hibernation
