@@ -36,9 +36,9 @@ Each file contains one minute of recordings and should be around ***12 000 lines
 * 4: ulnar deviation
 	* <img height="100" src="https://i.imgur.com/ypGlBKi.png">
 * 5: pronation
-	* <img height="100" src="https://i.imgur.com/TQmps6o.png">
+	* <img height="100" src="https://i.imgur.com/gMmvKOf.png">
 * 6: supination
-	* <img height="100" src="https://i.imgur.com/oIPhfVB.png">
+	* <img height="100" src="https://i.imgur.com/8XlN1LZ.png">
 * 7: fist
 	* <img height="100" src="https://i.imgur.com/1DTqj5Y.png">
 
