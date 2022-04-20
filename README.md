@@ -7,7 +7,7 @@
 Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
 
 ## Project structure ##
-The readings from the right hand are located in the _readings_right_hand folder, while the readings from the left hand are located in the _readings_left_hand folder which both contain one folder per recording session. ***All session folders containg data from the same participant should be named by a random unique id (five numbers), followed by a dash and session number, starting at 1 (for example 12345-1, 12345-2, etc.).*** Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 2.txt for extension, see Gesture labels below). Each recording session folder should contain at least eight files (for gestures 0-7). Three sessions are expected to be recorded on either the right of the left hand.
+The readings from the right hand are located in the _readings_right_hand folder, while the readings from the left hand are located in the _readings_left_hand folder which both contain one folder per recording session. ***All session folders containg data from the same participant should be named by a random unique id (five numbers), followed by a dash and session number, starting at 1 (for example 12345-1, 12345-2, etc.).*** Each session folder contains multiple files, one per each wrist gesture. These are named &lt;label&gt;.txt (e. g. 2.txt for extension, see Gesture labels below). Each recording session folder should contain at least eight files (for gestures 0-7). Three sessions are expected to be recorded on either the right or the left hand.
 The file itself is composed of multiple lines:
 
     ...
