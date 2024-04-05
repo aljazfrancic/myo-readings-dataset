@@ -55,4 +55,4 @@ The curated sessions hence also yield a good interparticipant accuracy.
 If you intend to use the dataset for applying machine learninig strategies, it is recommended to use only the curated sessions.
 
 ## TODO ##
-* [ ] Automatic `curated.txt` generator (the current one is outdated)
+* [ ] Automatic `curated.txt` generator (`curated.txt` is outdated)
