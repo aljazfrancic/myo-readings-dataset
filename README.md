@@ -24,21 +24,21 @@ Each file contains one minute of recording and should be ***around 12 000 lines 
 
 ## Gesture labels ##
 * 0: hibernation
-&nbsp;<img height="100" src="pics/hibernation_0.png"> &nbsp;<img height="100" src="pics/hibernation_1.png">
+<img height="100" src="pics/hibernation_0.png"><img height="100" src="pics/hibernation_1.png">
 * 1: flexion
-&nbsp;<img height="100" src="pics/flexion.png">
+<img height="100" src="pics/flexion.png">
 * 2: extension
-&nbsp;<img height="100" src="pics/extension.png">
+<img height="100" src="pics/extension.png">
 * 3: radial deviation
-&nbsp;<img height="100" src="pics/radial_deviation.png">
+<img height="100" src="pics/radial_deviation.png">
 * 4: ulnar deviation
-&nbsp;<img height="100" src="pics/ulnar_deviation.png">
+<img height="100" src="pics/ulnar_deviation.png">
 * 5: pronation
-&nbsp;<img height="100" src="pics/pronation.png">
+<img height="100" src="pics/pronation.png">
 * 6: supination
-&nbsp;<img height="100" src="pics/supination.png">
+<img height="100" src="pics/supination.png">
 * 7: fist
-&nbsp;<img height="100" src="pics/fist.png">
+<img height="100" src="pics/fist.png">
 
 ## Curated sessions ##
 The `curated.txt` file contains a list of sessions that yield a decent intraparticipant accuracy accross most gestures when applying machine learning strategies to evaluate the dataset.
