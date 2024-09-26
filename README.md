@@ -1,9 +1,10 @@
+# myo-readings-dataset #
+
 <p align="center">
     <img src="pics/myo_white.png">
     <img src="pics/myo_black.png">
 </p>
 
-# myo-readings-dataset #
 Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
 
 ## Example of results (confusion matrix) ##
