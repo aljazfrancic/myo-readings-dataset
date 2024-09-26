@@ -6,13 +6,11 @@
 # myo-readings-dataset #
 Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
 
-## Single file contents example ##
+## Example of results (confusion matrix) ##
 
 <p align="center">
-    <img src="pics/example.png">
+    <img src="pics/partial_results.png">
 </p>
-
-The above graphs depict EMG measurements of a single hand repeatedly performing extension for a minute. The orange line shows the current gesture, which alternates between hibernation (0) and extension (2).
 
 ## Project structure ##
 The readings from the right hand are located in the `_readings_right_hand` folder, while the readings from the left hand are located in the `_readings_left_hand` folder which both contain one folder per recording session. ***All session folders containig data from the same participant should be named by a random unique id (five digits), followed by a dash and session number, starting at 1 (for example 12345-1, 12345-2, etc.).*** Each session folder contains multiple files, one per each wrist gesture. These are named `<label>.txt` (e. g. `2.txt` for extension, see Gesture labels below). Each recording session folder should contain at least eight files (for gestures 0-7). Three sessions are expected to be recorded on either the right or the left hand.
@@ -70,11 +68,14 @@ Good intra-participant accuracy indicates proper electrode placement and device 
 The curated sessions hence also yield a good inter-participant accuracy.
 If you intend to use the dataset for applying machine learning strategies, it is recommended to use only the curated sessions.
 
-## Example of results (confusion matrix) ##
+## Single file contents example ##
 
 <p align="center">
-    <img src="pics/partial_results.png">
+    <img src="pics/example.png">
 </p>
+
+The above graphs depict EMG measurements of a single hand repeatedly performing extension for a minute. The orange line shows the current gesture, which alternates between hibernation (0) and extension (2).
+
 
 ## TODO ##
 * [ ] Automatic `curated.txt` generator (`curated.txt` is outdated)
