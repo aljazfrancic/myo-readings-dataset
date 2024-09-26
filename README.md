@@ -6,7 +6,7 @@
 # myo-readings-dataset #
 Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
 
-<p align="center" style="background-color:white;">
+<p align="center">
     <img src="pics/example.png">
 </p>
 
@@ -68,7 +68,7 @@ If you intend to use the dataset for applying machine learning strategies, it is
 
 ## Example of results (confusion matrix) ##
 
-<p align="center" style="background-color:white;">
+<p align="center">
     <img src="pics/partial_results.png">
 </p>
 
