@@ -1,10 +1,16 @@
 <p align="center">
-<img src="pics/myo_white.png">
-<img src="pics/myo_black.png">
+    <img src="pics/myo_white.png">
+    <img src="pics/myo_black.png">
 </p>
 
 # myo-readings-dataset #
 Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
+
+<div style="background-color: white;">
+    <p align="center">
+        <img src="pics/example.png">
+    </p>
+</div>
 
 ## Project structure ##
 The readings from the right hand are located in the `_readings_right_hand` folder, while the readings from the left hand are located in the `_readings_left_hand` folder which both contain one folder per recording session. ***All session folders containig data from the same participant should be named by a random unique id (five digits), followed by a dash and session number, starting at 1 (for example 12345-1, 12345-2, etc.).*** Each session folder contains multiple files, one per each wrist gesture. These are named `<label>.txt` (e. g. `2.txt` for extension, see Gesture labels below). Each recording session folder should contain at least eight files (for gestures 0-7). Three sessions are expected to be recorded on either the right or the left hand.
@@ -24,28 +30,36 @@ Each file contains one minute of recording and should be ***around 12 000 lines 
 
 ## Gesture labels ##
 * 0: hibernation
+
 <img height="100" src="pics/hibernation_0.png">
 <img height="100" src="pics/hibernation_1.png">
 
 * 1: flexion
+
 <img height="100" src="pics/flexion.png">
 
 * 2: extension
+
 <img height="100" src="pics/extension.png">
 
 * 3: radial deviation
+
 <img height="100" src="pics/radial_deviation.png">
 
 * 4: ulnar deviation
+
 <img height="100" src="pics/ulnar_deviation.png">
 
 * 5: pronation
+
 <img height="100" src="pics/pronation.png">
 
 * 6: supination
+
 <img height="100" src="pics/supination.png">
 
 * 7: fist
+
 <img height="100" src="pics/fist.png">
 
 ## Curated sessions ##
@@ -53,6 +67,14 @@ The `curated.txt` file contains a list of sessions that yield a decent intrapart
 Good intraparticipant accuracy indicates proper electrode placement and device orientation during individual recording sessions of a single participant.
 The curated sessions hence also yield a good interparticipant accuracy.
 If you intend to use the dataset for applying machine learninig strategies, it is recommended to use only the curated sessions.
+
+## Example of results (confusion matrix) ##
+
+<div style="background-color: white;">
+    <p align="center">
+        <img src="pics/partial_results.png">
+    </p>
+</div>
 
 ## TODO ##
 * [ ] Automatic `curated.txt` generator (`curated.txt` is outdated)
