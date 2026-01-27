@@ -1,13 +1,14 @@
-# myo-readings-dataset #
+# myo-readings-dataset
 
 <p align="center">
     <img src="pics/myo_white.png">
     <img src="pics/myo_black.png">
 </p>
 
-Myo armband electromyographic readings dataset for hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the wrist.
+Machine learning dataset of EMG recordings from the Myo armband of hibernation, flexion, extension, radial deviation, ulnar deviation, pronation, supination and fist gestures of the hand.
 
-## Example of results (confusion matrix) ##
+
+## Example of results (confusion matrix)
 
 <p align="center">
     <img src="pics/partial_results.png">
@@ -25,11 +26,11 @@ The file itself is composed of multiple lines:
 
 Each line represents the samples from the eight EMG channels on the Myo armband (***[-128, 127]***, signed byte) as well as the label for the wrist gesture (class) in a given time moment, separated by commas. ***There is no comma at the end of the line and there should be no spaces anywhere in the file.*** The sampling frequency is approximately 200 Hz, as per Myo specifications. In this example, the first two lines represent hibernation (e. g. 0 at the end of the line), while the third line represents extension (e. g. 2). The EMG values are arbitrary in the example. ***There should not be an empty line at the end of the file.***
 
-## Recording protocol ##
+## Recording protocol
 The Myo armband is placed on the thickest part of the forearm, with the ***LED pointing towards the dorsal (back) part of the hand***.
 Each file contains one minute of recording and should be ***around 12 000 lines long*** (~200 Hz &times; 60 s = 12 000). ***The labels at the ends of the lines alternate between hibernation (0) and the gesture denoted in the file name every five seconds.*** The exception is the hibernation gesture, where the file should contain only hibernation labels (0) at the ends of the lines. Hibernation recordings contain various slight movements and motions of the hand that we would prefer to ignore during classification.
 
-## Gesture labels ##
+## Gesture labels
 * 0: hibernation
 
 <img height="100" src="pics/hibernation_0.png">
@@ -63,13 +64,13 @@ Each file contains one minute of recording and should be ***around 12 000 lines 
 
 <img height="100" src="pics/fist.png">
 
-## Curated sessions ##
+## Curated sessions
 The `curated.txt` file contains a list of sessions that yield a decent intra-participant accuracy across most gestures when applying machine learning strategies to evaluate the dataset.
 Good intra-participant accuracy indicates proper electrode placement and device orientation during individual recording sessions of a single participant.
 The curated sessions hence also yield a good inter-participant accuracy.
 If you intend to use the dataset for applying machine learning strategies, it is recommended to use only the curated sessions.
 
-## Single file contents example ##
+## Single file contents example
 
 <p align="center">
     <img src="pics/example.png">
@@ -78,5 +79,5 @@ If you intend to use the dataset for applying machine learning strategies, it is
 The above graphs depict EMG measurements of a single hand repeatedly performing extension for a minute. The orange line shows the current gesture, which alternates between hibernation (0) and extension (2).
 
 
-## TODO ##
+## TODO
 * [ ] Automatic `curated.txt` generator (`curated.txt` is outdated)
