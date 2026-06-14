@@ -77,7 +77,3 @@ If you intend to use the dataset for applying machine learning strategies, it is
 </p>
 
 The above graphs depict EMG measurements of a single hand repeatedly performing extension for a minute. The orange line shows the current gesture, which alternates between hibernation (0) and extension (2).
-
-
-## TODO
-* [ ] Automatic `curated.txt` generator (`curated.txt` is outdated)
